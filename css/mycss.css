@@ -1,0 +1,557 @@
+/*Stret mycode voroumweerk*/
+  body{
+    
+  }
+  .container{
+  	width: 900px;
+  	margin: auto;
+    position: relative;
+    display: inline-block;
+  }
+  .table{
+    height: 100%;
+    display: table;
+  }
+  .hidden{
+    display: none;
+  }
+  .table-row{
+    display: table-row;
+    height: 100%;
+  } 
+  .texte-centr{
+  	text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .texte-centr2{
+    text-align: center;
+    
+  }
+  .upper{
+  	text-transform: uppercase;
+  }
+  .upper2{
+  	text-transform:  capitalize;
+  }
+  .main-color{
+  	color: #f7600e
+  }
+  .main-background{
+  	background:#f7600e
+  }
+  .overlay{
+    background: rgba(49, 55, 61, 0.6);
+    width: 100%;
+    height:  100%;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    left: 0px;
+   }
+
+
+   ::-webkit-input-placeholder {
+     font-size: 14px;
+   }
+ :-moz-input-placeholder{
+     font-size: 14px;
+   }
+ :-ms-input-placeholder{
+     font-size: 14px;
+   }
+
+/*End mycode voroumweerk*/
+/*Staret header + navbar*/
+   .header{
+   	background-image: url("../img/image5.jpg");
+   -webkit-background-size:  cover;
+  -moz-background-size:  cover;
+  -o-background-size: cover;
+   background-size: cover;
+  color: #FFFFFF;
+   
+   }
+   .overlay{
+    background: rgba(49, 55, 61, 0.6);
+    width: 100%;
+    height:  100%;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    left: 0px;
+   }
+   .overlay .s{
+      font-size: 33px;
+      text-transform: uppercase;
+   }
+    .header .navbarr{
+      overflow: hidden;
+      padding: 25px 0;
+      position: absolute;
+      top: 0px;
+      left:0px;
+      width: 100%; 
+    }
+   .header .navbarr .linkss{
+      float: right;
+       
+    }
+    .header .navbarr .linkss i{
+     clear: #FF9800;
+     margin-left: 5px;
+       
+    }
+
+
+   .header .button1 button{
+      background: transparent;
+      border-radius: 10px;
+      padding: 6px 11px;
+      margin-right: 7px;
+      border: 2px solid #909090;
+      width: 180px;
+      -webkit-background-size: all .5s  ease-in-out;
+      -moz-transition:  all .5s  ease-in-out;
+      -o-transition: all .5s  ease-in-out;
+     transition: all .5s  ease-in-out ;
+     cursor: pointer;
+   }
+   .header .button1 button:hover{
+       background-color: #f7600e; 
+       color: #FFFFFF;
+       border: 2px solid #f7600e;
+
+
+   }
+   .header .arow {
+        margin: 0px 0px 22px 0px;
+        text-align: center;
+        position: absolute;
+       bottom: 0px;
+       left:0px;
+       width: 100%;
+        
+   }
+   .header .arow i{
+         
+       border: 2px solid #7b7b7b;
+       border-radius: 100%;
+       padding: 12px;
+       cursor: pointer;
+   }
+   /*End header*/
+   /*Strte Features*/
+   .Features  {
+     margin: 25px ;
+     overflow: hidden;
+    position: relative;
+     
+    padding: 87px;
+  }
+  .Features .Feat{
+    margin: 0px 1px 0px 0px;
+    padding: 2px 11px 2px 11px;
+    width: 24%;
+    float: right;
+    text-align: center;
+
+
+
+
+  }
+  .Features .Feat i{
+    color: #f7600e;
+    font-size: 29px;
+    border: 2px solid #C4C4C4;
+    /*padding: 32px;*/
+    margin-bottom: 22px;
+    border-radius: 100%;
+    text-transform: capitalize;
+    height: 120px;
+    width: 120px;
+    line-height: 120px;
+    -webkit-background-size: all .5s  ease-in-out;
+    -moz-transition:  all .5s  ease-in-out;
+    -o-transition: all .5s  ease-in-out;
+    transition: all .5s  ease-in-out ;
+  }
+
+  .Features .Feat i:hover{
+    color: #fff;
+    background: #f7600e;
+  }
+
+  .Features .Feat h4{
+    margin-bottom: 11px;
+    font-size: 17px;
+    font-family: Georgia, serif;
+    text-transform: capitalize;
+    color: #505050;
+  }
+  .Features .Feat p{
+    font-family: Verdana, sans-serif;
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #888;
+  }
+  /*end Features*/
+
+/*Start Subscribe*/
+ .Subscribe{
+  background-image: url('../img/image2.jpg');
+  color: #000000;
+  height: 246px;
+  margin: 88px 0px ; 
+  overflow: hidden;
+  position: relative;
+  -webkit-background-size:  cover;
+  -moz-background-size:  cover;
+  -o-background-size: cover;
+   background-size: cover;
+ }
+ .Subscribe .form-inline{
+   padding: 100px 0px;
+   display: flex;
+  justify-content: center;
+ }
+ .Subscribe .form-inline input{
+     width: 322px;
+ }
+
+ .Subscribe .form-inline button{
+     width: 122px;
+    background: #f7600e;
+    border: #f7600e;
+ }
+ .Subscribe .form-inline:hover  button{
+     width: 122px;
+    background: #f7600e;
+    border: #f7600e;
+ }
+/* End Subscribe*/
+/*start ourwork*/
+.our-work{
+  position: relative;
+   display: flex;
+   overflow: hidden;
+}
+.our-work .bu{
+     text-align: center;
+     display: flex;
+   justify-content: center;
+   margin: 11px 0px;
+   }
+.our-work .Show-More{
+  text-align: center;
+  margin-bottom: 33px;
+  display: flex;
+   justify-content: center;
+  cursor: pointer;
+  color: #ffffff;
+  background: #f7600e;
+  border: 2px solid #f7600e;
+  border-radius: 11px;
+  padding: 11px;
+
+}
+.our-work h2{
+  text-align: center;
+}
+.our-work p{
+  text-align: center;
+  margin-bottom: 72px;
+  color: #888;
+}
+ .our-work .item {
+   display: inline-block;
+   width: 31%;
+   height:  auto; 
+   margin-left:  8px;
+   padding-right: 0px;
+   position: relative;
+ }
+ .our-work .item img{
+    width: 269.29px;
+    height:200px; 
+    display: flex;
+ }
+ .our-work .item .asz{
+      display: none;
+      text-align: center;
+      padding-top: 55px;
+   }
+   .our-work .item:hover .asz{
+    position: absolute;
+    background: rgba(247, 96, 14, .7);
+    width: 100%;
+    height: 100%;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    display: block;
+
+   }
+   .our-work .item .asz h3{
+    color  : #ffffff;
+   }
+   .our-work .item .asz p {
+    padding: 3px 0px;
+    margin: 0px;
+    color: #ffffff;
+   } 
+   .our-work  .bu{
+     text-align: center;
+   }
+   .our-work .item .asz button{
+    margin-top: 3px;
+    background: #ffffff;
+    border: 2px solid #ffffff;
+    color: #f7600e;
+    -moz-transition:  all .5s  ease-in-out;
+    -o-transition: all .5s  ease-in-out;
+    transition: all .5s  ease-in-out;
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 3px 12px;
+   }
+    
+/*End  ourwork*/
+/*Start Testimonials */
+.Testimonials{
+  text-align: center;
+  background: url('../img/image17.jpg');
+  background-repeat: no-repeat;
+  width: 100%;
+   -webkit-background-size:  cover;
+  -moz-background-size:  cover;
+  -o-background-size: cover;
+   background-size: cover;
+   margin-bottom: 122px;
+   position: relative;
+   overflow: hidden;
+}
+.Testimonials .monials{
+  color: #ffffff;
+  padding: 150px 0px;
+}
+.Testimonials .monials img{
+  width: 111px;
+  height: 111px;
+  margin-top: 11px;
+  -webkit-background-size:  cover;
+  -moz-background-size:  cover;
+  -o-background-size: cover;
+   background-size: cover;
+   border-radius: 50%;
+}
+.Testimonials .monials p{
+  font-style: italic;
+  line-height: 1.5;
+  margin-top: 22px;
+}
+.Testimonials .monials span{
+  font-size: 22px;
+}
+.Testimonials .fa-chevron-right{
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  color: #999;
+   font-size: 37px;
+   cursor: pointer;
+}
+.Testimonials .fa-chevron-left{
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  color: #999;
+  font-size: 37px;
+  cursor: pointer;
+}
+.Testimonials .fa-chevron-right:hover,
+.Testimonials .fa-chevron-left:hover{
+  color: #f7600e;
+}
+/*End Testimonials*/
+/*Start Our Team*/
+.Our-Team p{
+  color: #999;
+  font-size: 16;
+  line-height: 1.5;
+}
+.Our-Team .img {
+  width: 23%;
+  height:  auto;
+  display: inline-block;
+  margin: 0px 8px 6px 0px;
+  
+}
+.Our-Team .img img{
+  width: 200px;
+  height: 220px;
+  left: 0px;
+  border-radius: 6px;
+  margin-top: 42px;
+  filter: gray;
+  filter: grayscale(1);
+  webikt-filter: grayscale(1);
+}
+.Our-Team .img:hover img{
+     filter:none;
+  webikt-filter: grayscale(0); 
+}
+.Our-Team .img:hover{
+   
+  color: #000000;
+}
+.Our-Team .img:hover .fa-facebook{
+  background-color: #3b5998;
+  color: #Fff;
+  color: #Fff;
+}
+.Our-Team .img:hover .fa-instagram-square{
+  background-color: #55acee;
+  color: #Fff;
+}
+.Our-Team .img:hover .fa-google-plus-square{
+  background-color: #dc4e41;
+  color: #Fff;
+}
+.Our-Team .img h3{
+  color: #999;
+  font-size: 22px;
+  margin: 11px 0px;
+ }
+ .Our-Team .img p{
+  color: #999;
+  font-size: 16px;
+   line-height: 1.5;
+ }
+ .Our-Team .img i{
+  margin: 0px 15px 0px 0px;
+  font-size: 22px;
+  background:#FFFFFF;
+  color: #40667F
+ }
+/*End Our Team*/
+
+/*START Contact Form */
+.Contact-Form{
+  background: url('../img/image12.jpg');
+  background-repeat: no-repeat;
+  width: 100%;
+   -webkit-background-size:  cover;
+  -moz-background-size:  cover;
+  -o-background-size: cover;
+   background-size: cover;
+   
+   position: relative;
+   overflow: hidden;
+   
+}
+.Contact-Form .overlay{
+  padding: 53px; 
+}
+.Contact-Form h2{
+  color: #ffffff;
+  font-size: 35px;
+  line-height: 1;
+  text-align: center;
+}
+.Contact-Form p{
+  color: #ffffff;
+  font-size: 17px;
+  line-height: 1.5;
+  color: #999;
+  margin-bottom: 77px;
+}
+.Contact-Form form{
+
+  margin: auto;
+  width: 700px;
+  text-align: center;
+    
+
+}
+.Contact-Form form textarea{
+  background-color: transparent;
+}
+.Contact-Form form input{
+  background-color: transparent;
+}
+.Contact-Form form .form-group{
+  margin-top: 55px;
+
+}
+ 
+
+.Contact-Form form .form-icons {
+  width: 100%;
+ display: inline-block;
+}
+.Contact-Form form .form-icons button{
+  width: 23%;
+  left: 0px;
+  float: left;
+  background: #f7600e;
+  color: #ffffff;
+  border: 2px solid #f7600e; 
+  border-radius: 5px; 
+}
+.Contact-Form form .form-icons .i{
+ float: right;
+ text-align: center;
+ margin-top:  22px;
+
+}  
+.Contact-Form form .form-icons .i i{
+  margin-left: 12px;
+  font-size: 25px;
+
+  padding: 0px;
+  
+}
+.Contact-Form form .form-icons .i .i1{
+   color: #111CD6;
+
+}
+
+.Contact-Form form .form-icons .i .i2{
+  color: #F7A41E;
+}
+
+.Contact-Form form .form-icons .i .i3{
+   color: #F42629 
+}
+
+.Contact-Form form .form-icons .i .i4{
+  color: #07F3E8; 
+}
+
+.Contact-Form form .form-icons .i .i5{
+   color: #74D117;
+}
+.Contact-Form form .form-icons .i .i6{
+  color: #F527CB;
+}
+/*ende Contact Form*/ 
+ /*start Footer*/
+ .Footer{
+  background: #3b434c;
+  padding:  25px 0px;
+  overflow: hidden;
+ }
+ .Footer .copyright{
+  float: right;
+  color: #ffffff;
+  font-size: 15px;
+   text-transform: uppercase;
+ }
+ .Footer .design{
+  color: #ffffff;
+  font-size: 15px;
+   text-transform: uppercase;
+ }
+ /* end Footer*/
